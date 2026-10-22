@@ -1,7 +1,7 @@
 # osTicket Docker Lab
 
 ## 📌 Project Overview
-This project details the deployment, troubleshooting, and validation of an osTicket web application running inside a Dockerized environment on Windows Subsystem for Linux (WSL2). 
+This project details the deployment, troubleshooting, and validation of an osTicket web application running inside a Dockerized environment on Windows Subsystem for Linux (WSL). 
 
 The goal of this homelab is to demonstrate hands-on experience with:
 - Containerized application deployment using Docker and Docker Compose.
