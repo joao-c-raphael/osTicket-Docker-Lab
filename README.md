@@ -22,7 +22,7 @@ The goal of this homelab is to demonstrate hands-on experience with:
    (`mkdir osTicket-lab`, `cd osTicket-lab`)
    <img width="332" height="23" alt="image" src="https://github.com/user-attachments/assets/110b98fc-97ec-4ac9-a201-4057dba1a326" />
 
-2. Create the environment configuration file (.env):
+2. Create the environment configuration file (.env):                                                                                                                     
    <img width="557" height="153" alt="image" src="https://github.com/user-attachments/assets/1a598575-e7b3-4115-a408-285ac804ed93" />
 
 3. Create the container orchestration profile (docker-compose.yml):
