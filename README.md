@@ -37,8 +37,7 @@ Navigate to the project directory and launch the container stack in detached mod
 
 cd osTicket-lab
 docker compose up -d
-
-(placeholder for screenshot)
+<img width="652" height="162" alt="image" src="https://github.com/user-attachments/assets/5109808f-31e4-45be-b122-65b9807b987d" />
 
 ---
 
