@@ -50,13 +50,15 @@ Checked the health and execution status of the running containers:
 
 *Observation:* The osTicket-app container was caught in an automatic restart loop (`Restarting`).
 
-(placeholder for screenshot)
+<img width="1447" height="165" alt="image" src="https://github.com/user-attachments/assets/109f5ed5-01cb-4ce4-acdf-b1be0ba58a91" />
+
 
 ### Step 2: Log Inspection
 Extracted container execution logs to isolate the error:
 `docker compose logs osTicket-app`
 
-(placeholder for screenshot)
+<img width="725" height="25" alt="image" src="https://github.com/user-attachments/assets/d7f402f5-f556-4d3a-9a11-de9cd4409ecb" />
+
 
 ### Step 3: Root Cause Analysis & Mitigation
 - **Analysis:** Log inspection indicated that environment variables defined in `.env` were not being properly read by the web container upon initialization.
