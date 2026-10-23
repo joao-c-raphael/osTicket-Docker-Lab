@@ -61,7 +61,7 @@ Extracted container execution logs to isolate the error:
 
 
 ### Step 3: Root Cause Analysis & Mitigation
-- **Analysis:** Log inspection indicated that environment variables defined in `.env` were not being properly read by the web container upon initialization.
+- **Analysis:** (Pasted logs into AI) Log inspection indicated that environment variables defined in `.env` were not being properly read by the web container upon initialization.
 - **Root Cause:** The `.env` configuration file was missing or mislocated relative to the `docker-compose.yml` manifest.
 - **Remediation:**
   1. Stopped and pruned the broken container stack and associated volumes:
