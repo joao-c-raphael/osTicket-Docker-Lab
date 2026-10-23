@@ -55,7 +55,7 @@ Checked the health and execution status of the running containers:
 
 ### Step 2: Log Inspection
 Extracted container execution logs to isolate the error:
-`docker compose logs osTicket-app`
+`docker compose logs osTicket`
 
 <img width="725" height="25" alt="image" src="https://github.com/user-attachments/assets/d7f402f5-f556-4d3a-9a11-de9cd4409ecb" />
 
@@ -78,11 +78,14 @@ Following remediation, the `osTicket-app` container stabilized, and the portal s
 ### 1. User Support Portal Access
 Verified end-user interface accessibility at `http://localhost`.
 
-(placeholder for screenshot)
-(placeholder for screenshot)
+<img width="1441" height="626" alt="image" src="https://github.com/user-attachments/assets/b7cdd6e4-502c-48f7-9582-cf13524ecf70" />
+
+<img width="1352" height="446" alt="image" src="https://github.com/user-attachments/assets/43841913-c764-4473-9e16-09319047bf90" />
+
 
 ### 2. Ticket Lifecycle Demonstration
 - **Ticket Submission:** Simulated an end-user submitting a technical support request via the public portal.
 - **Agent Resolution:** Logged into the osTicket Staff/Admin control panel to review, assign, and respond to the submitted ticket.
 
-(placeholder for screenshot)
+<img width="661" height="921" alt="image" src="https://github.com/user-attachments/assets/9c9a7425-a304-45cd-8a9b-ec75834df771" />
+
